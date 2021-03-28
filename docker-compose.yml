@@ -13,7 +13,7 @@ services:
     expose:
       - 8000
   nginx:
-    image: nginx:1.17
+    build: ./nginx
     restart: unless-stopped
     volumes:
       - ./nginx/certbot/conf:/etc/letsencrypt
