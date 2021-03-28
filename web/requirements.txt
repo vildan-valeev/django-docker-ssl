@@ -1,0 +1,4 @@
+Django
+gunicorn
+python-dotenv
+# psycopg2-binary==2.8.5
