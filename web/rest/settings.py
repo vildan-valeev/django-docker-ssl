@@ -25,7 +25,7 @@ SECRET_KEY = '2cf%a%kgl*(-jyx8-($y0kvdjfqwbof4$n*8x^thhrtu+djfxr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['tarataika.ru']
+ALLOWED_HOSTS = ['tarataika.ru', '127.0.0.1']
 
 
 # Application definition
